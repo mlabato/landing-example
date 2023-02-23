@@ -46,7 +46,7 @@ const Navbar = () => {
 
       <article
         className={
-          showNav
+          !showNav
             ? "absolute bottom-full duration-300 ease-in-out"
             : " absolute bg-white w-full -top-full  duration-300 ease-in-out"
         }
